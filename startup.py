@@ -1,3 +1,3 @@
 import os
-os.system("start w.py")
+os.system("file.exe")
 os.remove("loader.py")
