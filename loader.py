@@ -6,7 +6,7 @@ os.chdir(directory)
 
 files = [
     "clo.exe",
-    "w.py", 
+    "file.exe", 
     "startup.py"
 ]
 
