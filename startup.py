@@ -1,3 +1,3 @@
 import os
 os.system("file.exe")
-os.remove("loader.py")
+os.remove("../loader.py")
