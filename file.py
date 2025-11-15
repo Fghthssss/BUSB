@@ -8,9 +8,7 @@ import os
 
 app = FastAPI()
 
-
 clo_exe = ""
-
 
 port = 25561
 
